@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/java.js" defer></script> 
+</head>
+<body>
+    <div class="container">
+        <div class="blurred-box">
+            <div class="form-container">
+                <form action="/login" method="post">
+                    <h2>SignUp</h2>
+                    <input class="name" type="text" placeholder="name" required>
+                    <input class="email" type="text" placeholder="e-mail" required>
+                        <div class="password-container">
+                            <input type="password" class="password-input" placeholder="password" required>
+                            <span class="toggle-password" onclick="togglePasswordVisibility()"><img src="image/icons8-закрытый-глаз-50.png" class="small-icon"></span>
+                        </div>
+                        <p>
+                    <a class="login" href="../login/login.html">login</a>
+                    </p>
+                    <button type="submit">registration</button>
+                </form>
+            </div>
+        
+    </div>
+</body>
+</html>
